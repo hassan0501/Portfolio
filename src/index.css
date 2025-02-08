@@ -1,0 +1,30 @@
+body {
+  color: #94a3b8;
+  margin: 0;
+  font-family: 'Inter';
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*background: linear-gradient(180deg, #09203F, #537895);*/
+  background: linear-gradient(180deg , #12100E , #2B4162);
+}
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  
+}
+button{
+  background-color: transparent;
+  border: none;
+  color: #94a3b8;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* src/App.css */
+
+

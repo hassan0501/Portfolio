@@ -1,0 +1,146 @@
+@media (max-width: 768px) {
+    .project-div{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column-reverse;
+    }
+     .brand-div{
+        display: none !important;
+       
+    }
+    .name-div{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .email-div{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+  
+}
+@media(min-width : 768px){
+    .brand-div-L{
+        display: none !important;
+
+    }
+}
+
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+.section-1{
+    padding: 1.5rem;
+    
+}
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #12100E;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec1-div{
+    max-width: 350px;
+}
+.sec1-about{
+    display: flex;
+    gap: 1rem;
+}
+.sec-1-sub{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.brand-div{
+    display: flex;
+    gap: 1rem;
+}
+.brand-div-L{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.sec-span{
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.sec-span:hover {
+    transform: scale(1.1);
+  }
+
+img{
+    width: 200px;
+}
+
+
+.section-2{
+    padding: 3rem;
+    
+}
+.project-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.projects-div-container{
+    margin-top: 3rem;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+input , textarea{
+    background-color: #2B4162;
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+}
+.name-div{
+    display: flex;
+    gap: 1rem;
+}
+.email-div{
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    width: 9.375rem;
+    background: #12100E;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.9rem 1.4rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
