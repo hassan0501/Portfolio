@@ -64,10 +64,10 @@ import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-
     <section ref={aboutRef} className='section-2'>
       <div  className='about-sec'>
         <h2>About</h2>
-      <p>I’m a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. My favorite work lies at the intersection of design and development, creating experiences that not only look great but are meticulously built for performance and usability.</p>
-      <p>Currently, I'm a Senior Front-End Engineer at Klaviyo, specializing in accessibility. I contribute to the creation and maintenance of UI components that power Klaviyo’s frontend, ensuring our platform meets web accessibility standards and best practices to deliver an inclusive user experience.</p>
-      <p>In the past, I've had the opportunity to develop software across a variety of settings — from advertising agencies and large corporations to start-ups and small digital product studios. Additionally, I also released a comprehensive video course a few years ago, guiding learners through building a web app with the Spotify API</p>
-      <p>In my spare time i am usually playing chess and play sports like football</p>
+      <p>Hi, I'm Hassan Ayub, a passionate frontend developer dedicated to crafting sleek, user-friendly web experiences. With a keen eye for design and a love for clean code, I specialize in building responsive, interactive websites using modern technologies like React, JavaScript, HTML, and CSS.</p>
+      <p>I enjoy turning complex problems into elegant solutions, ensuring that every project I work on is fast, accessible, and visually appealing. Whether it's developing a dynamic UI or optimizing performance, I strive to create seamless digital experiences that leave a lasting impact.</p>
+      <p>I'm always eager to learn, experiment with new frameworks, and take on exciting challenges. Currently, I'm working on expanding my portfolio with innovative projects that showcase my skills.</p>
+      <p>Let's build something amazing together! Feel free to check out my work and connect with me.</p>
       </div>
     
       <div ref={projectsRef} className='projects-div-container'>
